@@ -1,0 +1,1 @@
+Agregué movimiento básico del jugador en JS
