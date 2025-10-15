@@ -1,0 +1,5 @@
+Agregué movimiento básico del jugador en JS
+
+se agregan nuevas opciones al prototipo
+
+agregar
