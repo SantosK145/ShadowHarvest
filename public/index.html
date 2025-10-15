@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/resources/logo.ico">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="left-div">
+            <img src="../images/resources/logo.png" id="logo">
+            <hr>
+
+            <div id="score-div">
+                <label> Score: </label>
+                <label id="score"></label>
+            </div>
+            <div id="lines-div">
+                <label> Lines: </label>
+                <label id="lines"></label>
+            </div>
+
+            <div id="controls">
+                <button id="start-button">Iniciar</button>
+                <button id="pause-button">Detener</button>
+                <button id="reset-button">Reiniciar</button>
+            </div>
+
+            <!-- Botón Regresar -->
+            <a href="../public/index.html"><button id="back-button">Regresar</button></a>
+        </div>
+        <div id="game-container">
+            <img src="../images/resources/background.png" id="background">
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </div>
+</body>
+
+<script src="../script/script.js"></script>
+
+</html>
