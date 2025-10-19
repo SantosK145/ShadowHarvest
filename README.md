@@ -7,7 +7,7 @@ Roles de cada integrante:
 
 Estructura de ramas usada:
 main
-    -> develop
+    |-> develop
             |-> resources
             |-> games
             |-> protype
